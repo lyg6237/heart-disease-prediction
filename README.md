@@ -1,4 +1,4 @@
-🫀 Heart Disease Prediction
+\##🫀 Heart Disease Prediction
 
 
 
@@ -8,7 +8,9 @@
 
 
 
-📌 Project Goal
+
+
+\## 📌 Project Goal
 
 \- 심장질환 여부 예측
 
@@ -18,7 +20,9 @@
 
 
 
-📊 Dataset
+
+
+\## 📊 Dataset
 
 \- Heart Disease Cleveland Dataset
 
@@ -30,7 +34,9 @@
 
 
 
-🤖 Models
+
+
+\## 🤖 Models
 
 \- Logistic Regression
 
@@ -40,33 +46,41 @@
 
 
 
-📈 Result
 
-Logistic Regression : \*\*0.92\*\* 
+
+\## 📈 Result
+
+Logistic Regression : 0.92
 
 SVM : 0.90
 
-Random Forest :  0.88
+Random Forest : 0.88
 
 
 
-🏆 Best Model
+
+
+\## 🏆 Best Model
 
 👉 Logistic Regression
 
 
 
-📊 Evaluation
-
-\- Accuracy: \*\*0.92\*\*
-
-\- Precision: \*\*1.00\*\*
-
-\- Recall: \*\*0.82\*\*
 
 
+\## 📊 Evaluation
 
-📌 Conclusion
+\- Accuracy: 0.92
+
+\- Precision: 1.00
+
+\- Recall: 0.82
+
+
+
+
+
+\## 📌 Conclusion
 
 Logistic Regression 모델이 가장 높은 정확도를 보였다.  
 
