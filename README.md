@@ -48,21 +48,21 @@ By analyzing health indicators such as age, blood pressure, cholesterol, and che
 
 
 
-| Category         | Technologies        |
+| Category             | Technologies            |
 
-| ---------------- | ------------------- |
+| --------------------- | ------------------------- |
 
-| Language         | Python              |
+| Language            | Python                    |
 
-| Data Analysis    | Pandas, NumPy       |
+| Data Analysis       | Pandas, NumPy         |
 
-| Visualization    | Matplotlib, Seaborn |
+| Visualization         | Matplotlib, Seaborn  |
 
-| Machine Learning | Scikit-learn        |
+| Machine Learning | Scikit-learn               |
 
-| Environment      | Jupyter Notebook    |
+| Environment        | Jupyter Notebook     |
 
-| Version Control  | GitHub              |
+| Version Control    | GitHub                    |
 
 
 
@@ -86,19 +86,19 @@ By analyzing health indicators such as age, blood pressure, cholesterol, and che
 
 
 
-| Feature   | Description          |
+| Feature    | Description             |
 
-| --------- | -------------------- |
+| ----------- | ------------------------ |
 
-| age       | Age                  |
+| age         | Age                        |
 
-| sex       | Sex                  |
+| sex          | Sex                        |
 
-| cp        | Chest pain type      |
+| cp           | Chest pain type        |
 
-| chol      | Cholesterol          |
+| chol        | Cholesterol              |
 
-| condition | Heart disease status |
+| condition | Heart disease Status  |
 
 
 
@@ -128,15 +128,15 @@ By analyzing health indicators such as age, blood pressure, cholesterol, and che
 
 
 
-| Model               | Accuracy |
+| Model                   | Accuracy |
 
-| ------------------- | -------- |
+| ----------------------- | ----------- |
 
-| Logistic Regression | 0.92     |
+| Logistic Regression  | 0.92        |
 
-| SVM                 | 0.90     |
+| SVM                      | 0.90        |
 
-| Random Forest       | 0.88     |
+| Random Forest       | 0.88        |
 
 
 
@@ -188,11 +188,11 @@ By analyzing health indicators such as age, blood pressure, cholesterol, and che
 
 | Actual / Predicted | 0 (Normal) | 1 (Heart Disease) |
 
-| ------------------ | ---------- | ----------------- |
+| -------------------- | ------------- | --------------------- |
 
-| 0 (Normal)         | 32         | 0                 |
+| 0 (Normal)          | 32             | 0                      |
 
-| 1 (Heart Disease)  | 5          | 23                |
+| 1 (Heart Disease)  | 5              | 23                     |
 
 
 
