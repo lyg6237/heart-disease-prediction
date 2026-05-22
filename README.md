@@ -1,4 +1,4 @@
-\# 🫀 Heart Disease Prediction AI Project
+# 🫀 Heart Disease Prediction AI Project
 
 
 
@@ -6,11 +6,11 @@
 
 
 
-\---
+---
 
 
 
-\## 📌 Overview
+## 📌 Overview
 
 
 
@@ -20,31 +20,31 @@ By analyzing health indicators such as age, blood pressure, cholesterol, and che
 
 
 
-\---
+---
 
 
 
-\## 🎯 Project Goals
+## 🎯 Project Goals
 
 
 
-\* Analyze heart disease-related health data
+* Analyze heart disease-related health data
 
-\* Perform data preprocessing and scaling
+* Perform data preprocessing and scaling
 
-\* Train machine learning classification models
+* Train machine learning classification models
 
-\* Compare model performance
+* Compare model performance
 
-\* Interpret prediction results
-
-
-
-\---
+* Interpret prediction results
 
 
 
-\## 🛠 Tech Stack
+---
+
+
+
+## 🛠 Tech Stack
 
 
 
@@ -66,23 +66,23 @@ By analyzing health indicators such as age, blood pressure, cholesterol, and che
 
 
 
-\---
+---
 
 
 
-\## 📊 Dataset
+## 📊 Dataset
 
 
 
-\### Heart Disease Cleveland Dataset
+### Heart Disease Cleveland Dataset
 
 
 
-\* Target: `condition`
+* Target: `condition`
 
-\* Class 0: Normal
+* Class 0: Normal
 
-\* Class 1: Heart Disease
+* Class 1: Heart Disease
 
 
 
@@ -102,29 +102,29 @@ By analyzing health indicators such as age, blood pressure, cholesterol, and che
 
 
 
-\---
+---
 
 
 
-\## 🧹 Data Preprocessing
+## 🧹 Data Preprocessing
 
 
 
-\* Checked dataset information
+* Checked dataset information
 
-\* Split feature / target data
+* Split feature / target data
 
-\* Applied train/test split (8:2)
+* Applied train/test split (8:2)
 
-\* Used StandardScaler
-
-
-
-\---
+* Used StandardScaler
 
 
 
-\## 🤖 Machine Learning Models
+---
+
+
+
+## 🤖 Machine Learning Models
 
 
 
@@ -144,47 +144,35 @@ By analyzing health indicators such as age, blood pressure, cholesterol, and che
 
 
 
-\---
+---
 
 
 
-\## 🏆 Best Model
+## 🏆 Best Model
 
 
 
-\### Logistic Regression
+### Logistic Regression
 
 
 
-\### Reason
+### Reason
 
 
 
-\* Highest Accuracy
+* Highest Accuracy
 
-\* Stable prediction performance
+* Stable prediction performance
 
-\* Easy to interpret compared to complex models
-
-
-
-\---
+* Easy to interpret compared to complex models
 
 
 
-\## 📌 Confusion Matrix
+---
 
 
 
-```text
-
-\[\[32  0]
-
-&#x20;\[ 5 23]]
-
-```
-
-
+## 📌 Confusion Matrix
 
 | Actual / Predicted | 0 (Normal) | 1 (Heart Disease) |
 
@@ -196,15 +184,15 @@ By analyzing health indicators such as age, blood pressure, cholesterol, and che
 
 
 
-\### Interpretation
+### Interpretation
 
 
 
-\* Correctly predicted all normal patients
+* Correctly predicted all normal patients
 
-\* Correctly identified 23 heart disease patients
+* Correctly identified 23 heart disease patients
 
-\* 5 heart disease patients were incorrectly predicted as normal
+* 5 heart disease patients were incorrectly predicted as normal
 
 
 
@@ -212,29 +200,29 @@ By analyzing health indicators such as age, blood pressure, cholesterol, and che
 
 
 
-\---
+---
 
 
 
-\## 📈 Key Insights
+## 📈 Key Insights
 
 
 
-\* Logistic Regression achieved the highest accuracy
+* Logistic Regression achieved the highest accuracy
 
-\* Precision was very high, indicating reliable positive predictions
+* Precision was very high, indicating reliable positive predictions
 
-\* Recall needs improvement because some actual heart disease patients were missed
+* Recall needs improvement because some actual heart disease patients were missed
 
-\* Medical AI should consider Recall as well as Accuracy
-
-
-
-\---
+* Medical AI should consider Recall as well as Accuracy
 
 
 
-\## 🚀 Conclusion
+---
+
+
+
+## 🚀 Conclusion
 
 
 
@@ -246,5 +234,5 @@ However, some heart disease patients were incorrectly classified as normal, so f
 
 
 
-\---
+---
 
