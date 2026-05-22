@@ -1,88 +1,250 @@
-\##🫀 Heart Disease Prediction
+\# 🫀 Heart Disease Prediction AI Project
 
 
 
-머신러닝 기반 심장질환 예측 프로젝트입니다.  
-
-환자의 건강 데이터를 활용하여 심장질환 여부를 예측하는 분류 모델을 구현했습니다.
+> Machine Learning-based Heart Disease Prediction using Patient Health Data
 
 
 
+\---
 
 
-\## 📌 Project Goal
 
-\- 심장질환 여부 예측
-
-\- 머신러닝 모델 성능 비교
-
-\- 의료 AI의 조기 진단 보조 가능성 확인
+\## 📌 Overview
 
 
+
+This project aims to predict heart disease using machine learning models based on patient health data.
+
+By analyzing health indicators such as age, blood pressure, cholesterol, and chest pain type, the model classifies whether a patient has heart disease or not.
+
+
+
+\---
+
+
+
+\## 🎯 Project Goals
+
+
+
+\* Analyze heart disease-related health data
+
+\* Perform data preprocessing and scaling
+
+\* Train machine learning classification models
+
+\* Compare model performance
+
+\* Interpret prediction results
+
+
+
+\---
+
+
+
+\## 🛠 Tech Stack
+
+
+
+| Category         | Technologies        |
+
+| ---------------- | ------------------- |
+
+| Language         | Python              |
+
+| Data Analysis    | Pandas, NumPy       |
+
+| Visualization    | Matplotlib, Seaborn |
+
+| Machine Learning | Scikit-learn        |
+
+| Environment      | Jupyter Notebook    |
+
+| Version Control  | GitHub              |
+
+
+
+\---
 
 
 
 \## 📊 Dataset
 
-\- Heart Disease Cleveland Dataset
 
-\- Target: condition
 
-\- Class 0: 정상
-
-\- Class 1: 심장질환
+\### Heart Disease Cleveland Dataset
 
 
 
+\* Target: `condition`
 
+\* Class 0: Normal
 
-\## 🤖 Models
-
-\- Logistic Regression
-
-\- SVM
-
-\- Random Forest
+\* Class 1: Heart Disease
 
 
 
+| Feature   | Description          |
+
+| --------- | -------------------- |
+
+| age       | Age                  |
+
+| sex       | Sex                  |
+
+| cp        | Chest pain type      |
+
+| chol      | Cholesterol          |
+
+| condition | Heart disease status |
 
 
-\## 📈 Result
 
-Logistic Regression : 0.92
-
-SVM : 0.90
-
-Random Forest : 0.88
+\---
 
 
+
+\## 🧹 Data Preprocessing
+
+
+
+\* Checked dataset information
+
+\* Split feature / target data
+
+\* Applied train/test split (8:2)
+
+\* Used StandardScaler
+
+
+
+\---
+
+
+
+\## 🤖 Machine Learning Models
+
+
+
+| Model               | Accuracy |
+
+| ------------------- | -------- |
+
+| Logistic Regression | 0.92     |
+
+| SVM                 | 0.90     |
+
+| Random Forest       | 0.88     |
+
+
+
+> Logistic Regression showed the best performance.
+
+
+
+\---
 
 
 
 \## 🏆 Best Model
 
-👉 Logistic Regression
+
+
+\### Logistic Regression
 
 
 
-
-
-\## 📊 Evaluation
-
-\- Accuracy: 0.92
-
-\- Precision: 1.00
-
-\- Recall: 0.82
+\### Reason
 
 
 
+\* Highest Accuracy
+
+\* Stable prediction performance
+
+\* Easy to interpret compared to complex models
 
 
-\## 📌 Conclusion
 
-Logistic Regression 모델이 가장 높은 정확도를 보였다.  
+\---
 
-다만 일부 심장질환 환자를 정상으로 예측하는 경우가 있어, 향후 Recall 개선이 필요하다.
+
+
+\## 📌 Confusion Matrix
+
+
+
+```text
+
+\[\[32  0]
+
+&#x20;\[ 5 23]]
+
+```
+
+
+
+| Actual / Predicted | 0 (Normal) | 1 (Heart Disease) |
+
+| ------------------ | ---------- | ----------------- |
+
+| 0 (Normal)         | 32         | 0                 |
+
+| 1 (Heart Disease)  | 5          | 23                |
+
+
+
+\### Interpretation
+
+
+
+\* Correctly predicted all normal patients
+
+\* Correctly identified 23 heart disease patients
+
+\* 5 heart disease patients were incorrectly predicted as normal
+
+
+
+> In medical AI, reducing False Negative cases is important because missing actual patients can be risky.
+
+
+
+\---
+
+
+
+\## 📈 Key Insights
+
+
+
+\* Logistic Regression achieved the highest accuracy
+
+\* Precision was very high, indicating reliable positive predictions
+
+\* Recall needs improvement because some actual heart disease patients were missed
+
+\* Medical AI should consider Recall as well as Accuracy
+
+
+
+\---
+
+
+
+\## 🚀 Conclusion
+
+
+
+This project implemented a machine learning-based heart disease prediction model using patient health data.
+
+Among the tested models, Logistic Regression achieved the best performance.
+
+However, some heart disease patients were incorrectly classified as normal, so future improvements should focus on improving Recall.
+
+
+
+\---
 
